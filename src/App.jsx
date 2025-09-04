@@ -86,6 +86,7 @@ const App = () => {
           <button 
             onClick={() => setShowChatbot(prev => !prev)}
             className="material-symbols-rounded"
+            title="Hide conversation" 
           >  
             keyboard_arrow_down
           </button>

@@ -177,10 +177,134 @@ export const companyInfo = {
     "Provide guidance and environmental standards for enterprises"
   ],
 
+  // Zone Contacts Information
+  zoneContacts: [
+    {
+      zone: "Katunayake EPZ",
+      name: "Mr. A S K T Ranjan Sibera",
+      position: "Director",
+      telephone: "0112208100",
+      mobile: "+94 773703044",
+      email: "ranjans@boi.lk"
+    },
+    {
+      zone: "Biyagama EPZ",
+      name: "Mr. K Kumarasinghe",
+      position: "Director",
+      telephone: "+94 11-2465212",
+      mobile: "+94 773995334",
+      email: "kithsirik@boi.lk"
+    },
+    {
+      zone: "Koggala EPZ",
+      name: "Mr H K M N P Ranatunga",
+      position: "Director",
+      telephone: "",
+      mobile: "+94 718565047",
+      email: "ranatungap@boi.lk"
+    },
+    {
+      zone: "Seethawaka EPZ",
+      name: "Mr. L S Thilakumara",
+      position: "Director",
+      telephone: "",
+      mobile: "+94 777286751",
+      email: "sujeewat@boi.lk"
+    },
+    {
+      zone: "Kandy IP",
+      name: "Mr. T M P Tennakoon",
+      position: "Senior Deputy Director",
+      telephone: "+94 81-2420019",
+      mobile: "+94 71-8058479",
+      email: "prasannat@boi.lk"
+    },
+    {
+      zone: "Horana EPZ",
+      name: "Mr. L S Thilakumara",
+      position: "Director",
+      telephone: "",
+      mobile: "+94 777286751",
+      email: "sujeewat@boi.lk"
+    },
+    {
+      zone: "Mawathagama EPZ",
+      name: "Mrs D P C Nilmini",
+      position: "Senior Deputy Director",
+      telephone: "",
+      mobile: "+94 718058488",
+      email: "chandrikan@boi.lk"
+    },
+    {
+      zone: "Mirigama EPZ",
+      name: "Mr. A S Subasinghe",
+      position: "Senior Deputy Director",
+      telephone: "+94 33 – 2274657",
+      mobile: "+94 741541785",
+      email: "subasinghes@boi.lk"
+    },
+    {
+      zone: "Malwatte EPP",
+      name: "Mrs R P S Pushpakumari",
+      position: "Senior Deputy Director",
+      telephone: "",
+      mobile: "+94 716031039",
+      email: "samanthip@boi.lk"
+    },
+    {
+      zone: "Mirijjawila EPZ",
+      name: "Mr. S S M Abeysekara",
+      position: "Senior Deputy Director",
+      telephone: "+94 47 2258800",
+      mobile: "+94 764803197",
+      email: "senakaa@boi.lk"
+    },
+    {
+      zone: "Wathupitiwala EPZ",
+      name: "Mr H G B P U Silva",
+      position: "Senior Deputy Director",
+      telephone: "",
+      mobile: "+94 773422933",
+      email: "prasads@boi.lk"
+    },
+    {
+      zone: "Polgahawela EPZ",
+      name: "Mr. A S Prasanna Kumara",
+      position: "Senior Deputy Director",
+      telephone: "+94 37-2241526",
+      mobile: "+94 777986584",
+      email: "prasannak@boi.lk"
+    },
+    {
+      zone: "Bingiriya EPZ",
+      name: "Mr A P P D Adikari",
+      position: "Officer-in-charge",
+      telephone: "+94 32 2241376",
+      mobile: "",
+      email: "dhananjayaa@boi.lk"
+    },
+    {
+      zone: "Eravur EPZ",
+      name: "Mr. R Suhanthan",
+      position: "Officer-in-charge",
+      telephone: "",
+      mobile: "+94 773694111 / +94 782792713",
+      email: "suhanthanr@boi.lk"
+    },
+    {
+      zone: "Arabokka IZ",
+      name: "Mr M S A Dharmapala",
+      position: "Officer-in-charge",
+      telephone: "",
+      mobile: "+94 769780855",
+      email: "sampathd@boi.lk"
+    }
+  ],
+
   // New BOI Zones Information
   boiZones: [
     {
-      name: "Katunayake Export Processing Zone",
+      name: "Katunayake Export Processing Zone (EPZ)",
       location: "Western Province, Gampaha District, Katana Divisional Secretariat",
       yearOfCommencement: 1978,
       distanceFromColombo: "29km",
@@ -202,7 +326,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Biyagama Export Processing Zone",
+      name: "Biyagama Export Processing Zone (EPZ)",
       location: "Western Province, Gampaha District, Biyagama Divisional Secretariat",
       yearOfCommencement: 1985,
       distanceFromColombo: "24 km",
@@ -224,7 +348,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Koggala Export Processing Zone",
+      name: "Koggala Export Processing Zone (EPZ)",
       location: "Southern Province, Galle District, Habaraduwa Divisional Secretariat",
       yearOfCommencement: 1991,
       distanceFromColombo: "133 Km",
@@ -246,7 +370,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Seethawaka Export Processing Zone",
+      name: "Seethawaka Export Processing Zone (EPZ)",
       location: "Western Province, Colombo District, Seethawake Divisional",
       yearOfCommencement: 1999,
       distanceFromColombo: "50 Km",
@@ -268,7 +392,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Kandy Industrial Park",
+      name: "Kandy Industrial Park (IP)",
       location: "Central Province, Kandy District, Kundasale Divisional Secretariats",
       yearOfCommencement: 1994,
       distanceFromColombo: "133 km",
@@ -290,7 +414,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Horana Export Processing Zone",
+      name: "Horana Export Processing Zone (EPZ)",
       location: "Western Province, Kalutara District Ingiriya Divisional Secretariat",
       yearOfCommencement: 1999,
       distanceFromColombo: "55 Km",
@@ -312,7 +436,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Mawathagama Export Processing Zone",
+      name: "Mawathagama Export Processing Zone (EPZ)",
       location: "North Western Province, Kurunegala District, Mawathagama Divisional secretariat",
       yearOfCommencement: 2000,
       distanceFromColombo: "106 Km",
@@ -334,7 +458,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Mirigama Export Processing Zone",
+      name: "Mirigama Export Processing Zone (EPZ)",
       location: "Western Province, Gampaha District, Mirigama Divisional Secretariats",
       yearOfCommencement: 1998,
       distanceFromColombo: "65 Km",
@@ -356,7 +480,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Wathupitiwala Export Processing Zone",
+      name: "Wathupitiwala Export Processing Zone (EPZ)",
       location: "Western Province, Gampaha District, Attanagalla Divisional Secretariat",
       yearOfCommencement: 1998,
       distanceFromColombo: "38km",
@@ -378,7 +502,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Hambantota Export Processing Zone",
+      name: "Hambantota Export Processing Zone (EPZ)",
       location: "Southern Province, Hambantota District",
       yearOfCommencement: 1999,
       distanceFromColombo: "233km",
@@ -400,7 +524,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Malwatta Export Processing Zone",
+      name: "Malwatta Export Processing Zone (EPZ)",
       location: "Western Province, Gampaha District, Attanagalla Divisional Secretariat",
       yearOfCommencement: 1999,
       distanceFromColombo: "42 km",
@@ -422,7 +546,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Polgahawela Export Processing Zone",
+      name: "Polgahawela Export Processing Zone (EPZ)",
       location: "North Western Province, Kurunegala District, Polgahawela Divisional Secretariats",
       yearOfCommencement: 2000,
       distanceFromColombo: "77 Km",
@@ -444,7 +568,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Wathuwatta Export Processing Zone",
+      name: "Wathuwatta Export Processing Zone (EPZ)",
       location: "North Western Province, Kurunegala District, Wathuwatta Divisional secretariat",
       yearOfCommencement: 2019,
       distanceFromColombo: "81 Km",
@@ -466,7 +590,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Eravur Export Processing Zone",
+      name: "Eravur Export Processing Zone (EPZ)",
       location: "Eastern Province, Batticaloa District, Eravur pattu Division",
       yearOfCommencement: 2020,
       distanceFromColombo: "312 Km",
@@ -488,7 +612,7 @@ export const companyInfo = {
       }
     },
     {
-      name: "Hambantota Industrial Park",
+      name: "Hambantota Industrial Park (IP)",
       location: "Southern Province, Hambantota District",
       yearOfCommencement: 2020,
       distanceFromColombo: "255 Km",
@@ -583,6 +707,16 @@ ${companyInfo.engineeringApprovals.map(e => `• ${e}`).join("\n")}
 
 **🌱 Environmental Clearances:**
 ${companyInfo.environmentalClearances.map(e => `• ${e}`).join("\n")}
+
+**👤 Zone Contacts:**
+${companyInfo.zoneContacts.map(z => `
+📍 ${z.zone}
+Name: ${z.name}
+Position: ${z.position}
+${z.telephone ? `Telephone: ${z.telephone}` : ''}
+${z.mobile ? `Mobile: ${z.mobile}` : ''}
+Email: ${z.email}
+`).join("\n")}
 
 **🏭 BOI Zones:**
 ${companyInfo.boiZones.map(zone => `
