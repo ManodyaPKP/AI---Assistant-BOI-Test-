@@ -14,6 +14,8 @@ body {
   background: linear-gradient(#5128c2, #DACDFF);
 }
 
+
+
 #chatbot-toggler { /* chat toggle button */
     position: fixed;
     bottom: 30px;
@@ -59,7 +61,7 @@ body {
     transform-origin: bottom right;
     box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
                 0 32px 64px -48px rgba(0, 0, 0, 0.5);
-                transition: all 0.1s ease;
+    transition: all 0.1s ease;
     overflow: hidden;
     background: #F6F2FF;
 }
@@ -126,10 +128,9 @@ body {
 .clear-btn:hover {
   background: rgba(255, 255, 255, 0.3);
   transform: scale(1.1);
- 
 }
 
-.chat-header .header-actions .material-symbols-rounded {  /*close and minimize-button*/
+.chat-header .header-actions .material-symbols-rounded {  /*close, minimize, theme*/
   height: 40px;
   width: 40px;
   border-radius: 10%;
@@ -187,7 +188,7 @@ body {
     border-radius: 50%; 
 }
 
-.chat-body .message .message-text { /* user message text */
+.chat-body .message .message-text { /* message text */
     padding: 12px 16px;
     max-width: 75%;
     word-wrap: break-word;
@@ -274,6 +275,36 @@ body {
   font-feature-settings: 'liga';
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
+}
+
+/* === THEME STYLES === */
+
+/* Dark Mode */
+.container.dark .chatbot-popup {
+  background: #1e1e1e;
+  color: #f5f5f5;
+}
+
+.container.dark .chat-header {
+  background: #333;
+}
+
+.container.dark .chat-body {
+  background: #2a2a2a;
+}
+
+.container.dark .chat-body .bot-message .message-text {
+  background: #444;
+  color: #fff;
+}
+
+.container.dark .chat-body .user-message .message-text {
+  background: #6ab7ff;
+  color: #000;
+}
+
+.container.dark .chat-footer {
+  background: #1e1e1e;
 }
 
 /* Responsive media query for mobile screen */
