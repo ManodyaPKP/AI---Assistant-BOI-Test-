@@ -18,6 +18,8 @@ A sophisticated React-based chatbot application designed to serve as a virtual h
 
 - Error Handling: Robust error management with      user-friendly messages
 
+- The user can switch to the chatbot's dark mode theme as desired.
+
 ## Getting Started
 
 1. Clone the repository:
